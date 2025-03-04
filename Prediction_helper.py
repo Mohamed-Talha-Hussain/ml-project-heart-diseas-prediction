@@ -2,7 +2,7 @@ import pandas as pd
 from joblib import load
 
 model_cat = load("artifacts/Model_cat.joblib")
-# cat_encoder = load("artifacts\cat_encoder.joblib")
+# cat_encoder = load("artifacts/cat_encoder.joblib")
 
 def preprocess_input(features):
     expected_columns = [
